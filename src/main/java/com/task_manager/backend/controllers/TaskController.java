@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "http://localhost:4200")  // Angular Frontend URL
+@CrossOrigin(origins = "https://task-manager-frontend-blush-three.vercel.app/")  // Angular Frontend URL
 public class TaskController {
     private final TaskService taskService;
 
